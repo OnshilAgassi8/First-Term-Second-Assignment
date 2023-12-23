@@ -76,7 +76,7 @@ label {
 
 .input-box input {
     position: absolute;
-    width: 94%
+    width: 95%
 }
 
 img {
@@ -84,6 +84,7 @@ img {
     width: 15px;
     right: 4px;
     top:12px;
+    cursor: pointer;
 }
 
 button {
@@ -93,7 +94,7 @@ button {
 }
 
 
-@media (min-width: 327px) and (max-width: 999px) {
+@media (max-width: 999px) {
     .form {
         display: flex;
         flex-direction: column;
